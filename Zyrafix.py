@@ -14,6 +14,7 @@ screen = pygame.display.get_surface()
 def input(events):
     for event in events:
         if event.type == QUIT:
+            sys.exit(0)
         else:
             print(event)
 
