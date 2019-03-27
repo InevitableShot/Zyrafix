@@ -8,6 +8,7 @@ window = pygame.display.set_mode(resolution, DOUBLEBUF)
 pygame.display.set_caption('Zyrafix')
 # tlo=pygame.image.load()
 # kappa
+# kappav2
 screen = pygame.display.get_surface()
 
 
