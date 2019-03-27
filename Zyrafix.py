@@ -7,7 +7,7 @@ resolution = (1280, 720)
 window = pygame.display.set_mode(resolution, DOUBLEBUF)
 pygame.display.set_caption('Zyrafix')
 # tlo=pygame.image.load()
-
+# kappa
 screen = pygame.display.get_surface()
 
 
@@ -17,7 +17,6 @@ def input(events):
             sys.exit(0)
         else:
             print(event)
-
 
 while True:
     input(pygame.event.get())
