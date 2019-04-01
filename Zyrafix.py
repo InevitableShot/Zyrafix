@@ -9,6 +9,7 @@ pygame.display.set_caption('Achtung die Kurve')
 tlo=pygame.image.load('playnow.png')
 wyjscie=pygame.image.load('exit.png')
 # kappa
+# kappav2
 screen = pygame.display.get_surface()
 screen.blit(tlo,(500,200))
 screen.blit(wyjscie,(500,350))
