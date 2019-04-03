@@ -2,6 +2,22 @@ import pygame
 import sys
 from pygame.locals import *
 
+#Block of CONST
+
+FPS = 20
+WINWIDTH = 1280
+WINHEIGHT = 720
+RADIUS = 5
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+P1COLOUR = BLUE
+P2COLOUR = GREEN
+P3COLOUR = RED
+
 pygame.init()
 resolution = (1280, 720)
 window = pygame.display.set_mode(resolution, DOUBLEBUF)
